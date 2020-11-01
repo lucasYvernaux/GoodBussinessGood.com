@@ -1,0 +1,7 @@
+#container-iframe{
+    display: flex;
+    margin: 0 auto;
+    height: 550px;
+    width: 100%;
+    pointer-events: none;
+}
