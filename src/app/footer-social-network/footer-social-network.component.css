@@ -1,0 +1,11 @@
+a{
+    display: flex;
+    margin: 0 auto;
+    height: 50px;
+    width: 50px;
+}
+
+#img_insta{
+    height: 100%;
+    width: 100%;
+}
