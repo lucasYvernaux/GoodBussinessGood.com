@@ -22,7 +22,7 @@ FROM nginx
 #on rajoute la composante Nginx
 COPY default.conf /etc/nginx/conf.d/default.conf 
 #on copie notre fichier de configuration à l'intérieur du conteneur
-COPY --from=angular-image /usr/src/app/dist /usr/share/nginx/html 
+COPY --from=angular-image /usr/src/app/dist/your-angular-project /usr/share/nginx/html 
 #on copie le projet angular à partir de l'image précedente dans l'image nginx
 
 EXPOSE 8080 
