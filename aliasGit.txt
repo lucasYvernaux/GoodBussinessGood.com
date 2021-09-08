@@ -10,3 +10,4 @@
 	a=add
 	aa=add -A
 	l=log --oneline --decorate --graph
+	r=restore
