@@ -1,11 +1,12 @@
-alias.b=branch
-alias.c=commit
-alias.cm=commit -m
-alias.ck=checkout
-alias.st=status
-alias.s=stash
-alias.sp=stash pop
-alias.p=pull
-alias.a=add
-alias.aa=add -A
-alias.l=log --oneline --decorate --graph
+[alias]
+	b=branch
+	c=commit
+	cm=commit -m
+	ck=checkout
+	st=status
+	s=stash
+	sp=stash pop
+	p=pull
+	a=add
+	aa=add -A
+	l=log --oneline --decorate --graph
